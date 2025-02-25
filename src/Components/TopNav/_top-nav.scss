@@ -68,7 +68,26 @@
   }
   
   .cart-wishlist{
-    width: 7%;
+    width: 8%;
     margin-top: 1.7em;
     margin-left: 1em;
+  }
+  .list-icon{
+    #cart-item-count{
+       border-radius: 50%;
+       background: gold;
+       position: absolute;
+       height: 1em;
+       width: 1em;
+       left: 97.5%;
+       top: 1.8%;
+       text-align: center;
+       line-height: 90%;
+
+       p{
+        font-size: 0.8em;
+        font-weight: 600;
+        color: black;
+       }
+    }
   }
